@@ -37,8 +37,8 @@
     <header class=>
         <!-- navbar section started -->
          <section >
-            <nav class="mt-5   ">
-                <div class="navbar bg-base-100 bg-[#a56cd3]  ">
+            <nav class="mt-5  flex ">
+                <div class="navbar bg-base-100 bg-[#FFF9F4]  ">
                     <div class="navbar-start  ">
                       <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -58,7 +58,7 @@
                        
                       </div>
                       <div class="flex gap-7  ">
-                        <img src="c1-assets/logo-header.png" alt="">
+                        <img src="c1-assets/logo-header.png" class="hidden lg:flex" alt="">
                       <h2 class="text-2xl hidden lg:flex">pet house</h2>
                       </div>
                     </div>
@@ -74,8 +74,11 @@
                       <i class="fa-solid fa-magnifying-glass fa-2x"></i>
                         <a class="btn">Login</a>
                       <a class="btn bg-[#FFDC26] ">Register</a>
+              
                     </div>
+                    
                   </div>
+                  <div><img src="c1-assets/logo-header.png" class="flex lg:hidden mt-3 " alt=""></div>
              </nav>
          </section>
          <!-- hero section started -->
@@ -187,7 +190,7 @@
             </div>
           </div>  
             <div class="flex gap-2 container mx-auto ">
-            <div class="grid place-items-center "><img src="./c1-assets/pet-couch.png" alt=""></div>
+            <div class="grid place-items-center "><img src="./c1-assets/rabbit-cartoon.png" alt=""></div>
             <div class="gap-2">
               <div class="rating">
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -204,7 +207,7 @@
             </div>
           </div>  
             <div class="flex gap-2 container mx-auto ">
-            <div class="grid place-items-center "><img src="./c1-assets/pet-couch.png" alt=""></div>
+            <div class="grid place-items-center "><img src="./c1-assets/bird-cartoon.png" alt=""></div>
             <div class="gap-2">
               <div class="rating">
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -221,7 +224,7 @@
             </div>
           </div>   
            <div class="flex gap-2 container mx-auto">
-            <div class="grid place-items-center "><img src="./c1-assets/pet-couch.png" alt=""></div>
+            <div class="grid place-items-center "><img src="./c1-assets/mouse-cartoon.png" alt=""></div>
             <div class="gap-2">
               <div class="rating">
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -238,7 +241,7 @@
             </div>
           </div>   
            <div class="flex gap-2 container mx-auto ">
-            <div class="grid place-items-center "><img src="./c1-assets/pet-couch.png" alt=""></div>
+            <div class="grid place-items-center "><img src="./c1-assets/mouse-cartoon.png" alt=""></div>
             <div class="gap-2">
               <div class="rating">
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -255,7 +258,7 @@
             </div>
           </div>  
             <div class="flex gap-2 container mx-auto ">
-            <div class="grid place-items-center "><img src="./c1-assets/pet-couch.png" alt=""></div>
+            <div class="grid place-items-center "><img src="./c1-assets/cat-cartoon.png" alt=""></div>
             <div class="gap-2">
               <div class="rating">
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -272,7 +275,7 @@
             </div>
           </div>  
             <div class="flex gap-2 container mx-auto ">
-            <div class="grid place-items-center "><img src="./c1-assets/pet-couch.png" alt=""></div>
+            <div class="grid place-items-center "><img src="./c1-assets/fish-cartoon.png" alt=""></div>
             <div class="gap-2">
               <div class="rating">
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -289,8 +292,25 @@
   
             </div>
           </div>  
-           <div class="flex gap-2 container mx-auto ">
+           <div class="flex gap-2 container mx-auto hidden lg:flex">
             <div class="grid place-items-center "><img src="./c1-assets/pet-couch.png" alt=""></div>
+            <div class="gap-2">
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked" />
+               
+              </div>
+              <h2>Pet Bed</h2>
+              <h3>$ 49.99</h3>
+  
+            </div>
+          </div>
+           <div class="flex gap-2 container mx-auto ">
+            <div class="grid place-items-center "><img src="./c1-assets/dog-cartoon.png" alt=""></div>
             <div class="gap-2">
               <div class="rating">
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -316,8 +336,8 @@
          <section>
         <div>
           <h2 class="text-4xl container mx-auto">Everyday low Price</h2>
-          <div class=" container mx-auto lg:flex gap-6">
-            <div class=" container mx-auto rounded-xl mt-1  lg:flex bg-gradient-to-r from-[#F7CCFB] to-[#AFD2FD] ">
+          <div class="  grid grid-cols-1 md:grid-cols-10 container mx-auto gap-6 ">
+            <div class=" container mx-auto rounded-xl mt-1 col-span-6 lg:flex bg-gradient-to-r from-[#F7CCFB] to-[#AFD2FD] ">
               <div class="mt-2 px-4  ">
                 <p class="text-lg hidden lg:flex">Under Price</p>
                 <h2 class="text-[32px] pt-4 lg:pt-none ">Pet Grooming Mitt</h2>
@@ -328,7 +348,7 @@
                 <img src="./c1-assets/cute-dog-mid.png" alt="">
               </div>
             </div>
-            <div class=" container mx-auto mt-3 rounded-xl  lg:flex bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] ">
+            <div class=" container mx-auto  mt-3 rounded-xl col-span-4 lg:flex bg-gradient-to-r from-[#9bbd80] to-[#F9DF8A] ">
               <div class="mt-16  px-4 ">
                 <h2 class="text-[32px] pt-8">T-Shirt for Dogs</h2>
                 <h3 class="text-7xl">$7.99</h3>
